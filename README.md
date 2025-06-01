@@ -1,5 +1,38 @@
 # Interactive-Kaliedoscope
-Interactive Kaleidoscope
+Interactive 3D Kaleidoscope with Three.js & lil-gui
+This project is a web-based interactive 3D kaleidoscope simulation built using Three.js for the 3D rendering and lil-gui for real-time parameter control. Users can explore mesmerizing, ever-changing patterns created by mirrored segments of animated 3D objects.
+
+Features
+Dynamic Kaleidoscope Effect: Simulates a traditional kaleidoscope by cloning a set of "source" 3D objects and arranging them in mirrored segments around a central axis.
+
+Interactive Camera Controls: Uses Three.js OrbitControls to allow users to:
+
+Rotate the view around the kaleidoscope.
+
+Zoom in and out.
+
+Pan the camera (though typically the focus is on rotation and zoom).
+
+Animated Objects: The individual 3D objects within the kaleidoscope have their own animations:
+
+Ambient Tumbling & Drifting: Objects slowly rotate and change position, creating a constantly evolving base pattern.
+
+Individual Spin: Each object can spin on its own unique axis.
+
+Responsive Tumbling: The tumbling and spinning speed of the objects increases significantly when the user actively rotates the camera view, providing a more dynamic and interactive feel.
+
+GUI Controls (lil-gui): A user-friendly interface allows real-time adjustment of various parameters:
+
+Structure:
+
+Number of kaleidoscope segments.
+
+Number of objects in the source pattern.
+
+Maximum size of the objects.
+
+Spread/distribution of the objects.
+
 Animation:
 
 Speed of the kaleidoscope's overall auto-rotation.
